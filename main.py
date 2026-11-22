@@ -2,6 +2,9 @@
 
 Writes the 30-day plan (278 characters, verbatim) to /output/entry.txt.
 Deterministic, stdlib only, no network.
+
+Re-recorded build: the plan text is reproduced exactly as specified, with no
+trailing newline, so the output is byte-identical on every run.
 """
 
 PLAN = (
